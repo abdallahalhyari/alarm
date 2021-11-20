@@ -13,7 +13,7 @@ import android.os.Bundle;
 import com.example.alarm.services.MyReceiver;
 
 import java.util.Calendar;
-
+//main activity
 public class MainActivity extends AppCompatActivity {
 
     @Override
