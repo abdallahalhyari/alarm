@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="set time"
+        android:textSize="14sp" />
+
+    <TimePicker
+        android:id="@+id/tp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buDome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="done" />
+</LinearLayout>
